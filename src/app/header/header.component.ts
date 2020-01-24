@@ -12,19 +12,19 @@ export class HeaderComponent implements OnInit {
   queryField = new FormControl();
 
   constructor() { }
-  
+
   ngOnInit() {
   }
-  
-  onSearch() { 
-    if (this.queryField.value == '' || this.queryField.value == null || this.queryField.value == 'null') {
+
+  onSearch() {
+    if (this.queryField.value === '' || this.queryField.value === null || this.queryField.value === 'null') {
       localStorage.setItem('descricao', ' ');
     } else {
       localStorage.setItem('descricao', this.queryField.value);
     }
     localStorage.setItem('categoria', ' ');
     // location.reload();
-    window.location.replace("http://localhost:4200/");
+    window.location.replace('http://localhost:4200/');
   }
 
 }

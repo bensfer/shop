@@ -10,7 +10,7 @@ export class FilterCategoriaPipe implements PipeTransform {
     if (!items || !filter) {
       return items;
     }
-    return items.filter(item => item.categoria.indexOf(filter["categoria"]) !== -1);
+    return items.filter(item => item.categoria.indexOf(filter['categoria']) !== -1);
   }
 
 }

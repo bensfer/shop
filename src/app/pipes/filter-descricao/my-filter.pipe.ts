@@ -10,6 +10,6 @@ export class FilterDescricaoPipe implements PipeTransform {
     if (!items || !filter) {
       return items;
     }
-    return items.filter(item => item.descricao.indexOf(filter["descricao"]) !== -1);
+    return items.filter(item => item.descricao.indexOf(filter['descricao']) !== -1);
   }
 }

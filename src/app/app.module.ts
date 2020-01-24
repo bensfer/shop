@@ -26,7 +26,7 @@ import { DetalheComponent } from './detalhe/detalhe.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule, 
+    FormsModule,
     ReactiveFormsModule
   ],
   providers: [],
