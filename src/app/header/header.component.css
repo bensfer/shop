@@ -1,0 +1,30 @@
+.header-app {
+    background-color: #142152;
+    height: 20vh;
+    width: 100%;
+}
+
+.header-primary {
+    width: 20%;
+}
+
+.header-secondary {
+    width: 60%;
+}
+
+.header-secondary > form > input {
+    width: 450px;
+}
+
+.header-terciary {
+    width: 20%;
+}
+
+.logo {
+    float: left;
+}
+
+.fa-icon {
+    font-size: 30px;
+    color: white;
+}

@@ -1,0 +1,67 @@
+.content {
+    background-color: #F0FFFF;
+    height: 700px;
+}
+
+.content-primary {
+    width: 20%;
+    float: left;
+}
+
+.content-primary > ul > li {
+    font-size: 12px;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+.list-group-item:hover {
+    background-color: #E6E6FA;
+}
+
+.content-secondary {
+    width: 80%;
+    float: right;
+}
+
+.content-secondary > div {
+    min-height: 350px;
+}
+
+.content-secondary > div > div > img {
+    width: 100%;
+    height: 60%;
+}
+
+.content-secondary > div > div > a > h5 {
+    font-size: 1rem;
+    height: 15%;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.card-body {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.card-body > p {
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card-body > button {
+    float: right;
+    font-size: 12px;
+}
+
+.card-deck .card {
+    flex: none;
+    width: 200px;
+}
+
+.card-img-top {
+    width: 200px;
+    height: 200px;
+}

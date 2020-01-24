@@ -1,0 +1,35 @@
+.page-footer {
+    height: 30vh;
+    width: 100%;
+    background-color: #483D8B;
+    color: white;
+    text-align: center;
+}
+
+.list-left {
+    float: left;
+    padding-left: 200px;
+}
+
+.list-right {
+    float: right;
+    padding-left: 200px;
+}
+
+.list-group-item {
+    background-color: transparent;
+    padding: 0;
+    border: none;
+}
+
+.footer-text {
+    height: 80%;
+    font-size: 12px;
+}
+
+.footer-copyright {
+    height: 20%;
+    font-size: 10px;
+    background-color: #2F4F4F;
+    padding: 10px;
+}

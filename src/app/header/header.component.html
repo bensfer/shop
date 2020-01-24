@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-lg header-app">
+
+    <div class="header-primary h-50">
+        <a class="w-100 h-100 d-flex justify-content-center" href="#">
+            <img class="logo w-50 h-100" src="https://www.websitecollective.com/wp-content/uploads/2019/05/free-logo-design.png" alt="logo">
+        </a>
+    </div>
+
+    <div class="header-secondary d-flex justify-content-center" id="navbarSupportedContent">
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Buscar por nome do produto" [formControl]="queryField"/>
+            <button class="btn btn-outline-success my-2 my-sm-0" (click)="onSearch()">Buscar</button>
+        </form>
+    </div>
+
+    <div class="header-terciary d-flex">
+        <a href="http://localhost:4200/carrinho" title="Carrinho">
+            <i class="fa-icon fa fa-shopping-cart w-50 h-100 d-flex justify-content-center"></i>
+        </a>
+        <a href="http://localhost:4200/cadastro" title="Cadastrar">
+            <i class="fa-icon fa fa-user w-50 h-100 d-flex justify-content-center"></i>
+        </a>
+    </div>
+
+</nav>

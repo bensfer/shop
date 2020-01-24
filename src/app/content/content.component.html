@@ -1,0 +1,36 @@
+<div class="content">
+
+    <div class="content-primary">
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-action list-group-item-secondary" (click)="buscaCateg(' ')">TODAS AS CATEGORIAS</li>
+            <li class="list-group-item" (click)="buscaCateg('Masculino')">Masculino</li>
+            <li class="list-group-item" (click)="buscaCateg('Feminino')">Feminino</li>
+            <li class="list-group-item" (click)="buscaCateg('Infantil')">Infantil</li>
+            <li class="list-group-item" (click)="buscaCateg('Acessorios')">Acessorios</li>
+            <li class="list-group-item" (click)="buscaCateg('Eletronicos')">Eletronicos</li>
+            <li class="list-group-item" (click)="buscaCateg('Xiaomi')">Xiaomi</li>
+            <li class="list-group-item" (click)="buscaCateg('Lazer')">Lazer</li>
+            <li class="list-group-item" (click)="buscaCateg('Casa / Jardim')">Casa / Jardim</li>
+        </ul>
+    </div>
+
+    <div class="content-secondary">
+
+        <div class="card-deck m-0">
+            <div class="card m-4 d-flex justify-content-center" *ngFor="let item of items | filterDescricao:filterargs | filterCategoria:filterargs">
+                <a href="{{item.img}}" target="_blank">
+                    <img class="card-img-top p-3" src="{{item.img}}" alt="item1">
+                </a>
+                <a href="http://localhost:4200/detalhe" title="Detalhe">
+                    <h5 class="card-title">{{ item.descricao }}</h5>
+                </a>
+                <div class="card-body py-0">
+                    <p class="card-text">{{ item.preco }}</p>
+                    <button type="button" class="btn btn-primary">Comprar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>

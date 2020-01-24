@@ -1,0 +1,41 @@
+.detalhe-main {
+    margin: 70px;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 10px;
+    width: 85%;
+    height: 400px;
+}
+
+.detalhe-title {
+    font-size: 30px;
+}
+
+.detalhe-body {
+    height: 320px;
+}
+
+.detalhe-imagem {
+    width: 45%;
+    height: 320px;
+    float: left;
+}
+
+.detalhe-right {
+    float: right;
+    width: 50%;
+    padding-top: 10px;
+    height: 320px;
+}
+
+.detalhe-title2 {
+    height: 20%;
+}
+
+.detalhe-text {
+    height: 50%;
+}
+
+.detalhe-text2 {
+    height: 20%;
+}
